@@ -1,0 +1,26 @@
+{
+  "name": "cypress-form-opens-second-tab-example",
+  "version": "1.0.0",
+  "description": "An example stubbing a form that opens a 2nd tab in Cypress",
+  "main": "index.js",
+  "scripts": {
+    "test": "cypress run"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bahmutov/cypress-form-opens-second-tab-example.git"
+  },
+  "keywords": [
+    "cypress-example"
+  ],
+  "author": "Gleb Bahmutov <gleb.bahmutov@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/bahmutov/cypress-form-opens-second-tab-example/issues"
+  },
+  "homepage": "https://github.com/bahmutov/cypress-form-opens-second-tab-example#readme",
+  "devDependencies": {
+    "cypress": "^10.2.0",
+    "prettier": "^2.7.1"
+  }
+}
