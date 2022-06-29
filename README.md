@@ -1,4 +1,6 @@
-# cypress-form-opens-second-tab-example ![cypress version](https://img.shields.io/badge/cypress-10.2.0-brightgreen)
+# cypress-form-opens-second-tab-example
+
+> ![cypress version](https://img.shields.io/badge/cypress-10.2.0-brightgreen) [![ci](https://github.com/bahmutov/cypress-form-opens-second-tab-example/actions/workflows/ci.yml/badge.svg?branch=main)](https://github.com/bahmutov/cypress-form-opens-second-tab-example/actions/workflows/ci.yml)
 
 > An example stubbing a form that opens a 2nd tab in Cypress
 
