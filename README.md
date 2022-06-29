@@ -1,4 +1,4 @@
-# cypress-form-opens-second-tab-example
+# cypress-form-opens-second-tab-example ![cypress version](https://img.shields.io/badge/cypress-10.2.0-brightgreen)
 
 > An example stubbing a form that opens a 2nd tab in Cypress
 
