@@ -32,8 +32,8 @@ There are several specs showing how to handle the submission and prevent the sec
 
 - [1-remove-onclick.cy.js](./cypress/e2e/1-remove-onlick.cy.js) removes the `onclick` attribute, so the `openNewTab` is not called at all.
 - [2-stub-openNew.cy.js](./cypress/e2e/2-stub-openNew.cy.js) stubs the `window.openNew` method the application calls on click. We then confirm the parameters of the call instead of submitting the form.
-- [3-stub-submit.cy.js](./cypress/e2e/3-stub-submit.cy.js) allows the form to be created, but then it stubs the `submit` method
-- [spec.cy.js](./cypress/e2e/spec.cy.js) is the most advanced test. It stubs the form's target attribute to make sure the form is submitted _in the current_ test window. It also confirms the submission in two ways:
+- [3-stub-form-submit.cy.js](./cypress/e2e/3-stub-form-submit.cy.js) allows the form to be created, but then it stubs the `submit` method
+- [4-stub-form-target.cy.js](./cypress/e2e/4-stub-form-target.cy.js) is the most advanced test. It stubs the form's target attribute to make sure the form is submitted _in the current_ test window. It also confirms the submission in two ways:
   1. by spying on the network call and observing the search parameters
   2. by checking the `form.submit` stub instance to get the form object and its input elements
 
