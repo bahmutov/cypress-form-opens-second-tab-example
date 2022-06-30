@@ -4,6 +4,8 @@
 
 > An example stubbing a form that opens a 2nd tab in Cypress
 
+Read the blog post [Stub The Form That Opens The Second Browser Tab](https://glebbahmutov.com/blog/stub-form-that-opens-2nd-tab/).
+
 ![Forcing the form to open in the current tab](./images/spec.png)
 
 ## The application
